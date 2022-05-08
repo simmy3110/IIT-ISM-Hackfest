@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/shorthandcss@1.1.1/dist/shorthand.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:200,300,400,500,600,700,800,900&display=swap" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+</head>
+
+<body class="bg-black muli">
+    <nav class="w-100pc flex flex-column md-flex-row md-px-10 py-5 bg-black">
+        <div class="flex justify-between">
+            <a href="#" class="flex items-center p-2 mr-4 no-underline">
+                <img class="max-h-12 w-auto" src="assets/images/logo.png" />
+            </a>
+            <a data-toggle="toggle-nav" data-target="#nav-items" href="#"
+                class="flex items-center ml-auto md-hidden indigo-lighter opacity-50 hover-opacity-100 ease-300 p-1 m-3">
+                <i data-feather="menu"></i>
+            </a>
+        </div>
+        <div id="nav-items" class="hidden flex sm-w-100pc flex-column md-flex md-flex-row md-justify-end items-center">
+            <a href="#home" class="fs-s1 mx-3 py-3 indigo no-underline hover-underline">Home</a>
+            <a href="#slider-1" class="fs-s1 mx-3 py-3 indigo no-underline hover-underline">Features</a>
+            <a href="#slider-2" class="fs-s1 mx-3 py-3 indigo no-underline hover-underline">Blog</a>
+            <a href="sign.html" class="button bg-white black fw-600 no-underline mx-5">Sign Up</a>
+        </div>
+    </nav>
+
+    <!-- hero section -->
+    <section id="home" class="min-h-100vh flex justify-start items-center">
+        <div class="mx-5 md-mx-l5">
+            <div class="inline-block br-round bg-indigo-30 indigo-lightest p-2 fs-s2 mb-5">
+                <div class="inline-block bg-indigo indigo-lightest br-round px-3 py-1 mr-3 fs-s3">PayBuddy</div>
+                your best half…
+            </div>
+            <div>
+                <h1 class="white fs-l3 lh-2 md-fs-xl1 md-lh-1 fw-900 "> Built for <br /><space>college students</space></h1>
+
+                <div class="br-8 mt-10 inline-flex">
+                    <input type="text"
+                        class="input-lg half bw-0 fw-200 bg-indigo-lightest-10 white ph-indigo-lightest focus-white opacity-80 fs-s3 py-5 min-w-25vw br-r-0"
+                        placeholder="Email Address">
+                    <button
+                        class="button-lg bg-indigo-lightest-20 indigo-lightest focus-white fw-300 fs-s3 mr-0 br-l-0">Get
+                        Started</button>
+                </div>
+                <div class="white opacity-20 fs-s3 mt-3">No credit card required</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- slider -->
+    <section class="relative bg-indigo-lightest-10">
+        <div id="slider-1">
+            <div class="p-10 md-p-l10 flex justify-center items-center flex-column text-center">
+                <h2 class="white fs-l3 fw-900">You can track your expense throughout</h2>
+                <p class="indigo-lightest fw-600 fs-m1 opacity-30 my-5">Set goal and Excel in academics to boost your cred score  </p>
+                </div>
+            <div class="p-10 md-p-l10 flex justify-center items-center flex-column text-center">
+                <h2 class="white fs-l3 fw-900">Boosts your chances for crowd funding</h2>
+                <p class="indigo-lightest fw-600 fs-m1 opacity-30 my-5">Based on you trust score, you will be able to collect funds for projects </p>
+                </div>
+            <div class="p-10 md-p-l10 flex justify-center items-center flex-column text-center">
+                <h2 class="white fs-l3 fw-900">Insights into the investment world</h2>
+                <p class="indigo-lightest fw-600 fs-m1 opacity-30 my-5">Underlying motive to fund  deserving students and  professionals by the concept of  Trust Score and Cred Score </p>
+    
+            </div>
+        </div>
+        <ul class="absolute list-none w-100pc flex justify-between top-50pc">
+            <li><button
+                    class="prev ml-10 br-round border-indigo-lightest indigo-lightest  bg-transparent flex justify-center items-center p-2 focus-indigo-lighter outline-none"><i
+                        data-feather="chevron-left"></i></button></li>
+            <li><button
+                    class="next mr-10 br-round border-indigo-lightest indigo-lightest  bg-transparent flex justify-center items-center p-2  focus-indigo-lighter outline-none"><i
+                        data-feather="chevron-right"></i></button></li>
+        </ul>
+    </section>
+
+
+    <!-- testimonials -->
+    <section class="p-10 md-p-l5">
+        <div id="slider-2">
+            <div class="px-3">
+                <div class="p-8 br-8 bg-indigo-lightest-10 relative">
+                    <span class="fs-l5 lh-1 white opacity-10 absolute top-0 z--1">&#10077;</span>
+                    <p class="fw-600 fs-m1 indigo-lightest opacity-80 italic ls-wider">This app is beneficial for students who want to track their expense as well as goals.</p>
+                    <div class="flex items-center my-5">
+                        <div class="block br-round border bc-black bw-4 w-l3 h-l3"><img class="br-round"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG4EplWm0V2B-MHUy7ri4vXv5cY1bm41uVGw&usqp=CAU" alt=""></div>
+                        <div class="ml-4 fs-s1">
+                            <div class="indigo-lightest">Mahnaz Farzin</div>
+                            <div class="indigo-lightest opacity-20">Third Year, E&TC</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="px-3">
+                <div class="p-8 br-8 bg-indigo-lightest-10 relative">
+                    <span class="fs-l5 lh-1 white opacity-10 absolute top-0 z--1">&#10077;</span>
+                    <p class="fw-600 fs-m1 indigo-lightest opacity-80 italic ls-wider">It's a great app for maintain you funds in projects. Its interface is user-friendly. </p>
+                    <div class="flex items-center my-5">
+                        <div class="block br-round border bc-black bw-4 w-l3 h-l3"><img class="br-round"
+                                src="https://randomuser.me/api/portraits/men/46.jpg" alt=""></div>
+                        <div class="ml-4 fs-s1">
+                            <div class="indigo-lightest">Ashraf Ali</div>
+                            <div class="indigo-lightest opacity-20">Fourth Year, Comp</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="px-3">
+                <div class="p-8 br-8 bg-indigo-lightest-10 relative">
+                    <span class="fs-l5 lh-1 white opacity-10 absolute top-0 z--1">&#10077;</span>
+                    <p class="fw-600 fs-m1 indigo-lightest opacity-80 italic ls-wider">If you are one of those who overspend a lot and wish to save, use PayBuddy. </p>
+                    <div class="flex items-center my-5">
+                        <div class="block br-round border bc-black bw-4 w-l3 h-l3"><img class="br-round"
+                                src="data:image/jpeg;base64,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" alt=""></div>
+                        <div class="ml-4 fs-s1">
+                            <div class="indigo-lightest">Mamta Devi</div>
+                            <div class="indigo-lightest opacity-20">Third Year, IT</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+    </section>
+
+    <!-- subscribe -->
+    <section class="p-10 md-p-l5">
+        <div class="br-8 bg-indigo-lightest-10 p-5 md-p-l5 flex flex-wrap md-justify-between md-items-center">
+            <div class="w-100pc md-w-33pc">
+                <h2 class="white fs-m4 fw-800">Try PayBuddy today</h2>
+                <p class="fw-600 indigo-lightest opacity-40">Get first month experience. Free Funding for
+                    open source projects.</p>
+            </div>
+            <div class="w-100pc md-w-50pc">
+                <div class="flex my-5">
+                    <input type="text"
+                        class="input-lg flex-grow-1 bw-0 fw-200 bg-indigo-lightest-10 white ph-indigo-lightest focus-white opacity-80 fs-s3 py-5 br-r-0"
+                        placeholder="Email Address">
+                    <button class="button-lg bg-indigo indigo-lightest fw-300 fs-s3 br-l-0">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="p-5 md-p-l5 bg-indigo-lightest-10">
+        <div class="flex flex-wrap">
+            <div class="md-w-25pc mb-10">
+                <img src="assets/images/logo.png" class="w-l5" alt="">
+                <div class="white opacity-70 fs-s2 mt-4 md-pr-10">
+                    <p>To talk about investing culture or finance management, we focus on the working class or the business class but college students are often looked</p>
+                </div>
+            </div>
+            <div class="w-100pc md-w-50pc">
+                <div class="flex justify-around">
+                    <div class="w-33pc md-px-10 mb-10">
+                        <h5 class="white">Company</h5>
+                        <ul class="list-none mt-5 fs-s2">
+                            <li class="my-3"><a href="#slider-1" class="white opacity-70 no-underline hover-underline">Features</a></li>
+                            <li class="my-3"><a href="#slider-2" class="white opacity-70 no-underline hover-underline">Blogs</a>
+                            </li>
+                            <li class="my-3"><a href="#home"
+                                    class="white opacity-70 no-underline hover-underline">Home</a></li>
+                            <li class="my-3"><a href="#" class="white opacity-70 no-underline hover-underline">Sign Up</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="w-100pc md-w-25pc">
+                <div class="flex w-75pc md-w-100pc mx-auto">
+                    <input type="text"
+                        class="input flex-grow-1 bw-0 fw-200 bg-indigo-lightest-10 white ph-indigo-lightest focus-white opacity-80 fs-s3 py-5 br-r-0"
+                        placeholder="Email Address">
+                    <button class="button bg-indigo indigo-lightest fw-300 fs-s3 br-l-0">Start</button>
+                </div>
+                <div class="flex justify-around my-8">
+                    <a href="#" class="relative p-5 bg-indigo br-round white hover-scale-up-1 ease-400"><i
+                            data-feather="twitter" class="absolute-center h-4"></i></a>
+                    <a href="#" class="relative p-5 bg-indigo br-round white hover-scale-up-1 ease-400"><i
+                            data-feather="facebook" class="absolute-center h-4"></i></a>
+                    <a href="#" class="relative p-5 bg-indigo br-round white hover-scale-up-1 ease-400"><i
+                            data-feather="instagram" class="absolute-center h-4"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a class="fixed top-50pc right-0 p-3 bg-indigo white hover-scale-up-1 ease-300 no-underline" href="https://gum.co/tifJM" target="_blank" >
+        <i class="w-4" data-feather="download"></i>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
